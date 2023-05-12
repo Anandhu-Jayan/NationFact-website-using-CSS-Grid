@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
+*{
+    font-family: 'Rubik', sans-serif;
+}
+.cells{
+    background-color: #343434;
+}
+body{
+    min-height: 100vh;
+    overflow-y: hidden;
+    color: white;
+}
+.container{
+    margin: 3% auto;
+    min-height: 90vh;
+    max-width: 90%;
+    display: grid;
+    gap:1rem;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+}
+body{
+    background-color:black;
+}
+#firstCell{
+    grid-column: span 2;
+}
+.row-span-2{
+    grid-row:span 2;
+}
+#lastCell{
+    grid-column: span 3;
+}
+.pCenter{
+    text-align: center;
+}
+.flagImg{
+    display: block;
+    width: 20%;
+    margin:3% auto;
+}
