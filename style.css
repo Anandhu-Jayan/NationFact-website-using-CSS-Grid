@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
 *{
     font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
 }
 .cells{
     background-color: #343434;
@@ -35,8 +36,55 @@ body{
 .pCenter{
     text-align: center;
 }
-.flagImg{
+.flagImgItaly{
     display: block;
     width: 20%;
     margin:3% auto;
+}
+.flagImgArg{
+    display: block;
+    width: 45%;
+    margin:30% auto 0%;
+}
+#pArgentina{
+    width: 80%;
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flagImgSpain{
+    display: block;
+    width:35%;
+    margin:0 auto;
+    padding-top: 3%;
+}
+.flagImgRussia{
+    display: block;
+    width: 35%;
+    margin:0 auto;
+    padding-top: 20%;
+    padding-bottom: 8%;
+}
+#pRussia{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flagImgFrance{
+    display: block;
+    width: 35%;
+    margin:0 auto;
+    padding-top:5% ;
+}
+.flagImgAus{
+    display: block;
+    width: 35%;
+    margin: 0 auto;
+    padding-top:5% ;
+}
+.flagImgCanada{
+    display: block;
+    width: 14%;
+    margin:0 auto;
+    padding-top:1% ;
 }
